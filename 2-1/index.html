@@ -65,6 +65,40 @@
           background-color: #1900ff;
           color: white;
         }
+
+        .dropbtn {
+          background-color: #fffaef57;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f100;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #9767003f;}
     </style>
 
     <div class="topnav">
@@ -74,7 +108,6 @@
         <a href="../1-3/index.html">Coffee Shop</a>
         <a class="active" href="">Portfolio</a>
     </div>
-
         <title>2-3</title>
     </head>
 
@@ -82,7 +115,20 @@
 
     <div class="bg-text">
       <h1>I am Nicholas Woodward</h1>
-      <p>And I'm a Programmer</p>
+      <p>My Portfolio</p>
+      <p><div class="dropdown" >
+        <button class="dropbtn">Portfolio</button>
+        <div class="dropdown-content">
+          <a href="communityService/index.html">Community service</a>
+          <a href="education/index.html">Education</a>
+          <a href="experience/index.html">Experience</a>
+          <a href="Image/index.html">Image</a>
+          <a href="membershipsAndAchievements/index.html">Memberships and achievements</a>
+          <a href="personalInformation/index.html">Personal Information</a>
+          <a href="specialSkills/index.html">Special skills</a>
+        </div>
+      </div>
+    </p>
     </div>
 
 </html>
