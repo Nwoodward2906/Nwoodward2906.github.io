@@ -1,9 +1,77 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel ="style" href="mystyle.css">
+      <style>body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+    
+      .navbar a.active {
+        background-color: #1900ff;
+        color: white;
+      }  
+    
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: blue;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: rgb(0, 60, 255);
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }</style>
 
       <div class="navbar">
         <a a class="active" href="">Home</a>
