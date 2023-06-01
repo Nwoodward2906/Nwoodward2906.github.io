@@ -1,0 +1,134 @@
+/* Fonts */
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBlack.otf);
+
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBlackItalic.otf);
+
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBold.otf);
+
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBoldItalic.otf);
+
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBook.otf);
+
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonBookItalic.otf);
+
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonExtraBold.otf);
+
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonExtraBoldItalic.otf);
+
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonExtraLight.otf);
+
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonExtraLightItalic.otf);
+
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonLight.otf);
+
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonLightItalic.otf);
+
+    font-weight: light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonMedium.otf);
+
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonMediumItalic.otf);
+
+    font-weight: medium;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonSemiBold.otf);
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonSemiBoldItalic.otf);
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonThin.otf);
+
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'campton';
+    src: url(./fonts/campton/campton-cufonfonts/CamptonThinItalic.otf);
+
+    font-weight: lighter;
+    font-style: italic;
+}
